@@ -7,10 +7,66 @@
 }
 
 /* header */
+  .barra-header{
+    width: 100%;
+    height: 60px;
+    /* regoledebug */
+    background-color:red ;
+  }
+  /* nav */
 
-    /* nav */
+  /* jumbotron */
+  .jumbotron{
+      width: 100%;
+      background-color: rgb(99, 204, 236);
+      /* regoledebug */
+      height: 500px;
+  }
+
+  .testojumbo{
+      width: 80%;
+      margin: 0px auto;
+      /* regoledebug */
+      height: 130px;
+      background-color: blue;
+  }
+ /* clearfix */
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .clearfix{
+      width: 80%;
+      margin: 0 auto;
+  }
+  .colonn{
+    float: left;
+  }
+
+  .sx{
+      width: 30%;
+      /* regoledebug */
+      background-color: rgb(198, 226, 43);
+      height: 300px;
+  }
+
+  .dx{
+      width: 70%;
+      /* regoledebug */
+      background-color: blueviolet;
+      height: 400px;
+  }
 
 /* main */
+
+.tit-piano-tarif{
+    width: 70%;
+    margin: 110px auto 0px;
+    height: 60px;
+    /* regoledebug */
+    background-color:yellow;
+}
 
     /* jumbotron */
 

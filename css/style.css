@@ -60,12 +60,48 @@
 
 /* main */
 
-.tit-piano-tarif{
+.tit, .piano{
     width: 70%;
     margin: 110px auto 0px;
     height: 60px;
     /* regoledebug */
     background-color:yellow;
+}
+
+.sfondocolonn{
+    width: 70%;
+    margin: 0 auto;
+    height: 400px;
+  
+}
+
+.tariff{
+    width: 27%;
+    margin: 0 3%;
+    border: solid 1px black;
+    /* regoledebug */
+    background-color: rgb(0, 117, 53);
+    height: 400px;
+}
+ 
+/* sottosezionetariffa */
+
+.tit1{
+    width: 70%;
+    margin: 50px auto 0px;
+    border: solid 1px black;
+    /* regole debug */
+    background-color: blue;
+    height: 50px;
+}
+
+.tit2{
+    width: 70%;
+    margin: 0% auto;
+    border: solid 1px black;
+    /* regole debug */
+    background-color: blue;
+    height: 100px;
 }
 
     /* jumbotron */

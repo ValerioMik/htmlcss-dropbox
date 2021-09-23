@@ -104,6 +104,90 @@
     height: 100px;
 }
 
-    /* jumbotron */
+ /* tariffario */
 
+
+
+ .patnerdx{
+    width: 30%;
+      /* regoledebug */
+      background-color: rgb(198, 226, 43);
+      height: 400px;
+ }
+ 
+ .patnersx{
+    width: 70%;
+    /* regoledebug */
+    background-color: blueviolet;
+    height: 400px;
+}
+
+/* sezione scopri di piu */ 
+
+.business{
+    width: 70%;
+    margin: 110px auto 0px;
+    height: 60px;
+    /* regole debug */
+    background-color: blue;
+}
+
+.riquadri{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;  
+   
+}
+
+.design{
+    width: 18%;
+    /* regoledebug */
+    background-color: rgb(198, 226, 43);
+    height: 300px;
+}
+
+.grey{
+    width: 28%;
+    /* regoledebug */
+    background-color: rgb(198, 226, 43);
+    height: 300px;
+}
+
+.porta{
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;  
+    /* debug */
+    background-color: rgb(0, 121, 121);
+}
+
+.frequenti{
+    width: 70%;
+    margin: 0 auto;
+    /* regoledebug */   
+    height: 400px;
+    background-color: azure;
+}
+
+.piede{
+    width: 100%;
+    /* regoledebug */   
+    height: 500px;
+    background-color: black;
+
+}
 /* footer */
+
+.piede2{
+    width: 90%%;
+    /* regoledebug */   
+    height: 500px;
+   
+}
+
+.navigatori{
+    width: 20%;
+    /* regoledebug */
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+}

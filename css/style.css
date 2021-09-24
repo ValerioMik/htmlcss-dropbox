@@ -85,14 +85,6 @@ body{
     margin-left: 95px;
   }
 
-  .bottone1{
-    
-    background-color: royalblue;
-    margin-top: 16px;
-    height: 30px;
-    color: white;
-    text-align: center;
-  }
   a#textbottone{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -128,6 +120,12 @@ body{
      margin-top: 30px;
   }
 
+  .fa-city{
+    font-size: 15px;
+    margin-top: 0px;
+    color: #6c6b6b;
+  }
+
   h1{
     font-size: 65px;
     padding: 37px 0px;
@@ -144,7 +142,7 @@ body{
 .sfondocolonn{
     width: 70%;
     margin: 0 auto;
-    height: 400px;
+    height: auto;
   
 }
 
@@ -152,15 +150,92 @@ body{
     width: 27%;
     margin: 0 3%;
     border: solid 1px black;
-    height: 400px;
+    height: auto;
     /* regoledebug */
    
-    height: 400px;
+   
 }
 .omino{
     padding: 16px;
     padding-left: 107px;
     border-bottom: solid 1px;
+}
+
+.sky{
+    padding: 16px;
+    padding-left: 107px;
+    border-bottom: solid 1px;
+}
+
+h4{
+   padding: 25px; 
+   font-size: 20px;
+}
+
+h5{
+    padding: 10px 25px;  
+}
+
+.mese{
+    padding: 0px 25px;
+    display: block;
+    margin-bottom: 35px;
+}
+
+div>.fa-user{
+    font-size: 13px;
+    margin-left: 25px;
+    text-align: right;
+}
+
+.fa-pencil-alt{
+    padding-left: 25px;
+    font-size: 15px;
+    
+}
+.fa-folder{
+    padding-left: 25px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.bott{
+background:#2c29eb;
+border:0;
+color:#fff;
+padding:6px 20px;
+width: 80%;
+margin: 23px auto;
+text-align: center;
+
+}
+
+#prelink{
+    padding-left: 25px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+#blue{
+    color: blue;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+#rule{
+    width: 50px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#chek1{
+    font-size: 12px;
+    margin-left: 25px;
+}
+#chek{
+    list-style-image:url(../img/check.jfif)
+    padding: 10px;
+
+    
 }
  
 /* sottosezionetariffa */
@@ -169,18 +244,23 @@ body{
     width: 70%;
     margin: 50px auto 0px;
     border: solid 1px black;
+    height: auto;
     /* regole debug */
-    background-color: blue;
-    height: 50px;
+    
+}
+.city1{
+    text-align: center;
+    padding: 16px;
 }
 
 .tit2{
     width: 70%;
     margin: 0% auto;
     border: solid 1px black;
-    /* regole debug */
-    background-color: blue;
-    height: 100px;
+    height: auto; 
+}
+#sottotitolo{
+    margin-left: 25px;
 }
 
  /* tariffario */
@@ -194,7 +274,7 @@ h3{
     padding-left: 32px;
     margin-top: 30px;
 }
-.fas, .fa-dot-circle{
+ .fa-dot-circle{
     font-size: 16px;
     color: blue;
 }
@@ -212,7 +292,6 @@ h3{
     background-color: blueviolet;
     height: 400px;
 }
-
 
 /* sezione scopri di piu */ 
 

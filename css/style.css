@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* header */
 .clear::after{
@@ -20,14 +23,18 @@
   .logo{
       float: left;
       padding: 15px;
+      width: 10%;
+      vertical-align: middle;
   }
   /* nav */
   nav{
       float: left;
+      width: 40%;
   }
  .navdx{
      float: left;
-     margin-left: 300px;
+     padding-left: 166px;
+    
  }
 
   li{
@@ -41,10 +48,17 @@
 
   .bottone{
       background-color: blue;
-      width: auto;
-      height: 7px;
+      width: 5%;
+      height: auto;
+      float: right;
   }
- 
+  .bianco{
+      color: white;
+      text-align: center;
+  }
+  .bia{
+      padding-top: 16px;
+  }
 
   a:hover{
      text-decoration: underline;
@@ -57,15 +71,31 @@
       width: 100%;
       background-color: rgb(99, 204, 236);
       /* regoledebug */
-      height: 500px;
+      height: 582px;
   }
 
   .testojumbo{
       width: 80%;
       margin: 0px auto;
       /* regoledebug */
-      height: 130px;
-      background-color: blue;
+     
+  }
+  .jumbo{
+    height: 400px;
+    margin-left: 95px;
+  }
+
+  .bottone1{
+    
+    background-color: royalblue;
+    margin-top: 16px;
+    height: 30px;
+    color: white;
+    text-align: center;
+  }
+  a#textbottone{
+    color: rgb(255, 255, 255);
+    text-align: center;
   }
  /* clearfix */
   .clearfix::after{
@@ -84,25 +114,31 @@
   .sx{
       width: 30%;
       /* regoledebug */
-      background-color: rgb(198, 226, 43);
-      height: 300px;
+      
   }
 
   .dx{
       width: 70%;
       /* regoledebug */
-      background-color: blueviolet;
-      height: 400px;
+      
   }
 
+  .fa, .fas{
+     font-size: 50px;
+     margin-top: 30px;
+  }
+
+  h1{
+    font-size: 65px;
+    padding: 37px 0px;
+  }
 /* main */
 
 .tit, .piano{
     width: 70%;
-    margin: 110px auto 0px;
-    height: 60px;
-    /* regoledebug */
-    background-color:yellow;
+    margin: 155px auto 0px;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 .sfondocolonn{
@@ -116,9 +152,15 @@
     width: 27%;
     margin: 0 3%;
     border: solid 1px black;
-    /* regoledebug */
-    background-color: rgb(0, 117, 53);
     height: 400px;
+    /* regoledebug */
+   
+    height: 400px;
+}
+.omino{
+    padding: 16px;
+    padding-left: 107px;
+    border-bottom: solid 1px;
 }
  
 /* sottosezionetariffa */
@@ -143,7 +185,19 @@
 
  /* tariffario */
 
-
+h3{
+    padding-left: 32px;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.tariffario{
+    padding-left: 32px;
+    margin-top: 30px;
+}
+.fas, .fa-dot-circle{
+    font-size: 16px;
+    color: blue;
+}
 
  .patnerdx{
     width: 30%;
@@ -158,6 +212,7 @@
     background-color: blueviolet;
     height: 400px;
 }
+
 
 /* sezione scopri di piu */ 
 

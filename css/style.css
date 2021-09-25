@@ -141,7 +141,7 @@ body{
 
 .sfondocolonn{
     width: 70%;
-    margin: 0 auto;
+    margin: 130px auto;
     height: auto;
   
 }
@@ -170,6 +170,7 @@ body{
 h4{
    padding: 25px; 
    font-size: 20px;
+   display: inline-block;
 }
 
 h5{
@@ -261,9 +262,19 @@ text-align: center;
 }
 #sottotitolo{
     margin-left: 25px;
+    font-size: 14px;
 }
 
- /* tariffario */
+.sottotit{
+margin-top: -52px;
+margin-right: 10px;
+width: 30%;
+}
+/* patner */
+
+#patner{
+    width: 622px;
+}
 
 h3{
     padding-left: 32px;
@@ -281,16 +292,37 @@ h3{
 
  .patnerdx{
     width: 30%;
+    height: auto;
       /* regoledebug */
-      background-color: rgb(198, 226, 43);
-      height: 400px;
+    
+ }
+ #trova{
+    margin-left: -109px;
+ }
+
+ #trova2{
+     margin-left: -80px;
+     font-size: 19px;
  }
  
  .patnersx{
     width: 70%;
+    height: auto;
     /* regoledebug */
-    background-color: blueviolet;
-    height: 400px;
+    
+}
+.bianco{
+    width: 64%;
+    margin-top: 44px;
+    margin-left: -77px;
+    background:#ffffff;
+    text-align: center;
+    border: solid 1px black;
+
+}
+
+.bianco1{
+    color: rgb(0, 0, 0); 
 }
 
 /* sezione scopri di piu */ 

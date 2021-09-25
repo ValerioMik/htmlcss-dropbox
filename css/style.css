@@ -311,7 +311,7 @@ h3{
     /* regoledebug */
     
 }
-.bianco{
+.bianco3{
     width: 64%;
     margin-top: 44px;
     margin-left: -77px;
@@ -324,15 +324,29 @@ h3{
 .bianco1{
     color: rgb(0, 0, 0); 
 }
+/* linee guida */
 
+.tariffa1{
+    width: 285px;
+}
+.co{
+    width: 27%;
+    margin: 0 3%;
+    height: auto;
+}
+#trova0{
+    margin-left: -25px;
+}
+#trova1{
+    font-size: 15px;
+}
 /* sezione scopri di piu */ 
 
 .business{
     width: 70%;
     margin: 110px auto 0px;
-    height: 60px;
-    /* regole debug */
-    background-color: blue;
+    height: auto;
+    
 }
 
 .riquadri{
@@ -378,6 +392,12 @@ h3{
     height: 500px;
     background-color: black;
 
+}
+
+#dipiu{
+text-decoration: underline;
+color: blue;
+margin-left: 33px;
 }
 /* footer */
 

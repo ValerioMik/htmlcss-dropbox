@@ -71,7 +71,7 @@ body{
       width: 100%;
       background-color: rgb(99, 204, 236);
       /* regoledebug */
-      height: 582px;
+      height: 688px;
   }
 
   .testojumbo{
@@ -340,6 +340,8 @@ h3{
 #trova1{
     font-size: 15px;
 }
+
+
 /* sezione scopri di piu */ 
 
 .business{
@@ -352,22 +354,70 @@ h3{
 .riquadri{
     width: 100%;
     margin: 0 auto;
-    height: 300px;  
+    height: auto;  
    
 }
 
 .design{
-    width: 18%;
-    /* regoledebug */
-    background-color: rgb(198, 226, 43);
-    height: 300px;
+    width: 32%;
+    height: 407px;
 }
 
 .grey{
-    width: 28%;
+    width: 36%;
     /* regoledebug */
-    background-color: rgb(198, 226, 43);
-    height: 300px;
+    background-color: rgb(137, 138, 133);
+    height: 408px;
+}
+
+.aziende{
+    width: 50%;
+    float: left;
+    height: 204px;}
+
+.uno{
+   background-color: rgb(149, 187, 136);
+
+}
+
+.due{
+background-color: rgb(90, 39, 53);
+}
+
+.tre{
+    background-color: rgb(22, 139, 219);
+
+}
+
+.quattro{
+background-color: rgb(221, 59, 13);
+
+}
+
+.cinque{
+background-color: rgb(177, 48, 26);
+}
+
+.sei{
+background-color: rgb(156, 188, 211);
+}
+
+.sette{
+background-color: rgb(22, 58, 150);
+}
+
+.otto{
+background-color: rgb(225, 191, 1);
+}
+
+#figure1{
+    margin: 78px 46px;
+    width: 150px;
+}
+
+#figure2{
+    margin: 50px;
+    width: 150px;
 }
 
 .porta{

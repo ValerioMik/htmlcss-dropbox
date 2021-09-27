@@ -19,6 +19,8 @@ body{
   .barra-header{
     width: 100%;
     height: 60px;
+    background-color: white;
+    position: fixed;
   }
   .logo{
       float: left;
@@ -71,7 +73,7 @@ body{
       width: 100%;
       background-color: rgb(99, 204, 236);
       /* regoledebug */
-      height: 688px;
+      height: 619px;
   }
 
   .testojumbo{
@@ -128,7 +130,7 @@ body{
 
   h1{
     font-size: 65px;
-    padding: 37px 0px;
+    padding: 55px 0px;
   }
 /* main */
 
@@ -233,10 +235,15 @@ text-align: center;
     margin-left: 25px;
 }
 #chek{
-    list-style-image:url(../img/check.jfif)
     padding: 10px;
 
     
+}
+
+.fa-check{
+    font-size: 15px;
+    margin-top: 30px;
+    color: blue;
 }
  
 /* sottosezionetariffa */
@@ -353,7 +360,7 @@ h3{
 
 .riquadri{
     width: 100%;
-    margin: 0 auto;
+    margin: 30px auto 0p;
     height: auto;  
    
 }
@@ -366,7 +373,7 @@ h3{
 .grey{
     width: 36%;
     /* regoledebug */
-    background-color: rgb(137, 138, 133);
+    background-color: rgb(221, 222, 223);
     height: 408px;
 }
 
@@ -410,14 +417,32 @@ background-color: rgb(22, 58, 150);
 background-color: rgb(225, 191, 1);
 }
 
+#figuragrey{
+    width: 159px;
+    margin: 54px;
+
+}
+
+#sottoparagrafogrey{
+    margin: 0px 54px 46px
+
+}
+span{
+    margin-left: 54px;
+}
+
 #figure1{
     margin: 78px 46px;
     width: 150px;
+    filter: invert(1);
+    vertical-align: middle;
 }
 
 #figure2{
     margin: 50px;
     width: 150px;
+    filter: invert(1);
+    vertical-align: middle;
 }
 
 .porta{
@@ -425,7 +450,7 @@ background-color: rgb(225, 191, 1);
     margin: 0 auto;
     height: 100px;  
     /* debug */
-    background-color: rgb(0, 121, 121);
+    background-color:rgb(156, 188, 211);;
 }
 
 .frequenti{

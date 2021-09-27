@@ -433,6 +433,7 @@ span{
     margin-left: 54px;
 }
 
+
 #figure1{
     margin: 78px 46px;
     width: 150px;
@@ -565,4 +566,9 @@ hr{
     color: white;
     margin-left: 3px;
 
+}
+
+.scroll{
+    overflow: hidden;
+    overflow-y: scroll;
 }

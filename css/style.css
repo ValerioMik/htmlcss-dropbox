@@ -448,8 +448,7 @@ span{
 .porta{
     width: 100%;
     margin: 0 auto;
-    height: 100px;  
-    /* debug */
+    height: auto;  
     background-color:rgb(156, 188, 211);;
 }
 
@@ -474,10 +473,31 @@ text-decoration: underline;
 color: blue;
 margin-left: 33px;
 }
+
+.porta1{
+    width: 70%;
+}
+
+.portasx{
+    float: left;
+    width: 60%;
+}
+.portadx{
+    float: left;
+    width: 40%;
+}
+.rosso{
+    color: brown;
+    padding: 50px;
+}
+
+.btdiverso{
+    margin: 60px;
+}
 /* footer */
 
 .piede2{
-    width: 90%%;
+    width: 90%;
     /* regoledebug */   
     height: 500px;
    

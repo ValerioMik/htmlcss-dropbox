@@ -427,6 +427,8 @@ background-color: rgb(225, 191, 1);
     margin: 0px 54px 46px
 
 }
+
+
 span{
     margin-left: 54px;
 }
@@ -447,7 +449,7 @@ span{
 
 .porta{
     width: 100%;
-    margin: 0 auto;
+    margin: 0px auto 70px;
     height: auto;  
     background-color:rgb(156, 188, 211);;
 }
@@ -455,15 +457,15 @@ span{
 .frequenti{
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 110px;
     /* regoledebug */   
-    height: 400px;
-    background-color: azure;
+    height: auto;
+   
 }
 
 .piede{
-    width: 100%;
-    /* regoledebug */   
-    height: 500px;
+    width: 100%;  
+    height: auto;
     background-color: black;
 
 }
@@ -494,18 +496,73 @@ margin-left: 33px;
 .btdiverso{
     margin: 60px;
 }
+
+#domande{
+   border-bottom: solid 1px black;
+   padding-bottom: 50px;
+   padding-left: 0px;
+  
+}
+.domande1{
+    border-bottom: solid 1px black;
+    padding-bottom: 30px;
+}
+
+.domandefre{
+    display: inline-block;
+    margin-right: 365px;
+    
+}
+
+.fa-chevron-down{
+    font-size: 20px;
+    
+}
 /* footer */
+#footernav{
+    font-size: 15px;
+    text-decoration: white;
+
+}
+
+#listafooot{
+    padding: 30px;
+}
+
+hr{
+    margin-top: 105px;
+    width: 171px;
+}
+
+.white{
+    color: white;
+}
 
 .piede2{
-    width: 90%;
+    width: 80%;
     /* regoledebug */   
-    height: 500px;
+    height: auto;
    
 }
 
 .navigatori{
     width: 20%;
-    /* regoledebug */
-    background-color: rgb(255, 255, 255);
-    height: 300px;
+    height: auto;
+}
+
+.fa-globe-americas{
+ color: white;
+ font-size: 18px;
+}
+
+.fa-chevron-up{
+    color: white;
+    font-size: 10px;
+
+}
+
+#lingue{
+    color: white;
+    margin-left: 3px;
+
 }
